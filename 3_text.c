@@ -29,14 +29,7 @@ int main()
 	}
 	else if (c == '/')
 	{
-		if (b == 0)
-		{
-			printf("除数不能为零");
-		}
-		else
-		{
-			printf("计算结果为：%d", d = a / b);
-		}
+		printf("计算结果为：%d", d = a / b);
 	}
 	return 0;
 }
