@@ -13,19 +13,19 @@ int main()
 	{
 		printf("错误！请输入正确的学生成绩");
 	}
-	else if (89 < a <= 100)
+	else if (a >= 90 && a <= 100)
 	{
 		printf("该生成绩等级为A");
 	}
-	else if (80 <= a < 90)
+	else if (a >= 80 && a <= 89)
 	{
 		printf("该生成绩等级为B");
 	}
-	else if (70 <= a < 80)
+	else if (a >= 70 && a <= 79)
 	{
 		printf("该生成绩等级为C");
 	}
-	else if (60 <= a < 70)
+	else if (a >= 60 && a <= 69)
 	{
 		printf("该生成绩等级为D");
 	}
