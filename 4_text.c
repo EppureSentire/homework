@@ -20,11 +20,11 @@ int main()
 	}
 	else if (a + b > c && b + c > a && a + c > b)
 	{
-		printf("a、b、c三边能构成三角形");
+		printf("可以组成三角形");
 	}
 	else
 	{
-		printf("a、b、c三边不能构成三角形");
+		printf("不能组成三角形");
 	}
 
 	return 0;
