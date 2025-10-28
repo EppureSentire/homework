@@ -8,7 +8,7 @@ int main()
 {
 	printf("请输入一个数：");
 	int a;
-	scanf_s("%d", &a);
+	scanf("%d", &a);
 	if (a <= 1 || a >49)
 	{
 		return 0;
