@@ -21,6 +21,7 @@ int main()
 			printf("密钥不安全，请重新输入");
 				return 0;
 		}
+		b++;
 	}
 	printf("密钥安全，密码设置成功");
 	return 0;
