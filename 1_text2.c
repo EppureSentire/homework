@@ -14,10 +14,10 @@ int main()
 	{
 		if (a % b == 0)
 		{
-			printf("密匙不安全，请重新输入");
+			printf("密钥不安全，请重新输入");
 			return 0;
 		}
 	}
-	printf("密匙安全，密码设置成功");
+	printf("密钥安全，密码设置成功");
 	return 0;
 }
