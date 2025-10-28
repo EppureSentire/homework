@@ -14,7 +14,7 @@ int main()
 		return 0;
 	}
 	int b;
-	for (b = 2; b < 24; b++)
+	for (b = 2; b < a; b++)
 	{
 		if (a % b == 0)
 		{
