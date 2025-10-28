@@ -9,8 +9,12 @@ int main()
 	printf("请输入一个数：");
 	int a;
 	scanf("%d", &a);
+	if (a < 1 || a >49)
+	{
+		return 0;
+	}
 	int b;
-	for (b = 2; b < a; b++)
+	for (b = 2; b < 24; b++)
 	{
 		if (a % b == 0)
 		{
