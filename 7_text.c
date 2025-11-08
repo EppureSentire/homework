@@ -10,18 +10,12 @@ void input_array(int arr[], int a)
     {
         scanf("%d", &arr[i]);
     }
-     for (int i = 0; i < a; i++)
-        	{
-        		for (int j = 0;j < a - 1 - i;j++)
-        		{
-        			if (arr[j] > arr[j + 1])
-        			{
-        				int a = arr[j];
-        				arr[j] = arr[j + 1];
-                        arr[j + 1] = a;
-        			}
-        		}
-        	}
+    for (int i = 0; i < a / 2; i++)
+    {
+        int b = arr[i];
+        arr[i] = arr[a - i - 1];
+        arr[a - i - 1] = b;
+    }
         	printf("\n");
         	for (int i = 0; i < a; i++)
         	{
